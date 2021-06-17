@@ -1,0 +1,48 @@
+.main_container{
+  /*background-color: chocolate;*/
+  
+}
+.headerContent{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.info{
+  padding-left: 30%;
+}
+.info h2, .info h3{
+  
+  text-align: center;
+  margin: 5px 15px 5px;
+}
+
+.photo{
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgb(129, 213, 219);
+  border-color: black;
+  box-shadow: cornflowerblue;
+}
+.photo h4{
+  margin-top: 40px;
+}
+.skills{
+  align-content: center;
+}
+.education h4, .skills h4{
+  margin: 5px 15px 5px;
+  margin-right: 10px;
+}
+.education, .skills{
+  margin: 15px;
+  border: 2px solid #999;
+  border-radius: 15px;
+  box-shadow: darkgrey;
+}
+ul{
+  font-size: medium;
+  margin: 0;
+  margin-bottom: 5px;
+}
